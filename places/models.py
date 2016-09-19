@@ -15,3 +15,6 @@ class Place(models.Model):
     
     def __unicode__(self):
         return u'%s, %s: lat %s, long %s, pop. %d' % (self.city, self.ST, self.lat, self.lng, self.popn)
+
+    class Meta:
+        db_table = 'pl_place'

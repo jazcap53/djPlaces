@@ -74,8 +74,8 @@ def showHome(request, homeTown, homeState, dist, sorter, minP, maxP):
     # (dist / (3963.1676 * cos((lat + pLat) * PI() / 360.0) * PI() / 180.0)) is 
     #     distance divided by miles per degree lng at avg lat is 
     #     distance times degrees lng per mile at avg lat
-    r = Place.objects.raw('SELECT id, ST, city, lng, lat, popn, 0 as distance \
-                           FROM places_place \
+    r = Place.objects.raw('SELECT id, "ST", city, lng, lat, popn, 0 as distance \
+                           FROM pl_place \
                            WHERE lng <= %s + (%s / (3963.1676 * cos((lat + %s) * PI() / 360.0) * PI() / 180.0)) \
                            AND lng >= %s - (%s / (3963.1676 * cos((lat + %s) * PI() / 360.0) * PI() / 180.0)) \
                            AND lat <= %s + (%s * (360.0 / (PI() * 2.0 * 3963.1676))) \
