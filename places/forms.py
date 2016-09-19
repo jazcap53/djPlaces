@@ -8,7 +8,7 @@ class GetHomeForm(forms.Form):
     SORT_CHOICES = (('1','by Name',), ('2','by Population (asc.)',), ('3','by Population (desc.)',), ('4','by Distance (asc.)',), \
             ('5','by Distance (desc.)',))
     STATE_CHOICES =  ((None,''), ('AL', 'Alabama (AL)'), ('AK', 'Alaska (AK)'), ('AZ', 'Arizona (AZ)'), ('AR', 'Arkansas (AR)'), \
-            ('CA', 'California (CA)'), ('CO', 'Colorad    o (CO)'), ('CT', 'Connecticut (CT)'), ('DE', 'Delaware (DE)'), \
+            ('CA', 'California (CA)'), ('CO', 'Colorado (CO)'), ('CT', 'Connecticut (CT)'), ('DE', 'Delaware (DE)'), \
             ('DC', 'District of Columbia (DC)'), ('FL', 'Florida (FL)'), ('GA', 'Georgia (GA)'), ('HI', 'Hawaii (HI)'), \
             ('ID', 'Idaho (ID)'), ('IL', 'Illinois (IL)'), ('IN', 'Indiana (IN)'), ('IA', 'Iowa (IA)'), ('KS', 'Kansas (KS)'), \
             ('KY', 'Kentucky (KY)'), ('LA', 'Louisiana (LA)'), ('ME', 'Maine (ME)'), ('MD', 'Maryland (MD)'), \
