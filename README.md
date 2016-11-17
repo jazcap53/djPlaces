@@ -15,9 +15,6 @@ Python 2.7
 Django 1.10.1
 PostgreSQL 9.5.4
 
-## Known issues
-Does not correctly handle multiple towns with the same name in the same state
-
 ## Disclaimer
 For entertainment use only
 
