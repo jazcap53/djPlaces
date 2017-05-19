@@ -8,7 +8,7 @@ Near to Here is a simple website that yields a list of towns within a given dist
 
 * Sorts and displays its results by name, population, or distance from the home town
 * Correctly handles accents in both input and output
-* Most towns in the fifty U.S. states, District of Columbis, and Puerto Rico are available
+* Most cities and towns in the fifty U.S. states, District of Columbia, and Puerto Rico are available
 
 ## Dependencies
 Python 2.7
