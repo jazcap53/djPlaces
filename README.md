@@ -16,7 +16,7 @@ Django 1.10.1
 PostgreSQL 9.5.4
 
 ## Disclaimer
-For entertainment use only
+For entertainment use only.
 
 ## License
-CC0, Creative Commons Zero, released into the public domain
+CC0, Creative Commons Zero, released into the public domain.
