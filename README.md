@@ -11,8 +11,8 @@ Near to Here is a simple website that yields a list of towns within a given dist
 * Most cities and towns in the fifty U.S. states, District of Columbia, and Puerto Rico are available
 
 ## Dependencies
-Python 2.7
-Django 1.10.1
+Python 2.7  
+Django 1.10.1  
 PostgreSQL 9.5.4
 
 ## Disclaimer
